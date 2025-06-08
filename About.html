@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hero Blur Fix</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero {
+      position: relative;
+      background-image: url('/assets/jambg.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .hero-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;   
+      background: rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(8px);
+      z-index: 1;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    }
+
+    .hero p {
+      font-size: 1.3em;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    }
+    main{
+        width: 100%;
+        padding: 5%;
+        align-items: center;
+        justify-content: center;
+        gap: 5% ;
+        display: flex;
+        flex-direction: row;
+    }
+    .isi{
+        flex-direction: column;
+        min-width: 30%;
+        color: black;
+        font-weight: bolder;
+    }  
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Selamat Datang</h1>
+      <p>Ini adalah hero section dengan efek blur background</p>
+    </div>
+  </section>
+  <main>
+    <div class="isi">
+        <h2>Latar Belakang</h2>
+        <p>Kami memulai usaha ini dengan tujuan mengangkat kembali nilai seni kerajinan tangan yang ramah lingkungan, melalui produk hiasan dinding unik berbahan dasar sedotan. Terinspirasi dari kreativitas sederhana dan semangat daur ulang, setiap karya kami dibuat secara handmade oleh pengrajin lokal, menghadirkan dekorasi rumah yang estetis, terjangkau, dan penuh makna.</p>
+    </div>
+    <div class="isi">
+        <h2>Tentang Kami</h2>
+        <p>Kami adalah brand lokal yang fokus pada pembuatan hiasan dinding handmade dari sedotan, dengan mengusung konsep kreatif, ramah lingkungan, dan bernilai seni tinggi. Setiap produk yang kami hasilkan dirancang dengan ketelitian dan cinta, menggabungkan estetika dekorasi rumah dengan kepedulian terhadap keberlanjutan dan pemberdayaan pengrajin lokal.</p>
+
+    </div>
+    <div class="isi">
+        <h2>Latar Belakang</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro iste quas nemo, facere repellendus sunt? Soluta ullam dolores beatae molestias reprehenderit in necessitatibus consequatur iusto? Qui obcaecati dolores offici
+  </main>
+
+</body>
+</html>

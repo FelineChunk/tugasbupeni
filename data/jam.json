@@ -1,0 +1,52 @@
+{
+  "Search": [
+     {
+        "Id": 1,
+            "Nama": "kerajinan 1",
+            "Harga": "500K",
+            "Image": "../assets/ker1.jpg"
+        },
+        {
+            "Id": 2,
+            "Nama": "kerajinan 2",
+            "Harga": "700K",
+            "Image": "../assets/kera2.jfif"
+        },
+        {
+            "Id": 3,
+            "Nama": "kerajinan 3",
+            "Harga": "400K",
+            "Image": "../assets/kera3.jfif"
+        },
+        {
+            "Id": 4,
+            "Nama": "kerajinan 4",
+            "Harga": "500K",
+            "Image": "../assets/kera4.jfif"
+        },
+        {
+            "Id": 5,
+            "Nama": "kerajinan 5",
+            "Harga": "500K",
+            "Image": "../assets/kera5.jfif"
+        },
+        {
+            "Id": 6,
+            "Nama": "kerajinan 6",
+            "Harga": "500K",
+            "Image": "../assets/kera6.jfif"
+        },
+        {
+            "Id": 7,
+            "Nama": "kerajinan 7",
+            "Harga": "500K",
+            "Image": "../assets/kera7.jfif"
+        },
+        {
+            "Id": 8,
+            "Nama": "kerajinan 8",
+            "Harga": "500K",
+            "Image": "../assets/kera8.jfif"
+        }
+  ]
+}
